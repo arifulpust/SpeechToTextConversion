@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@color/backgroung"
+
+   >
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textSize="16dp"
+        android:padding="@dimen/padding_margin_10_dp"
+android:layout_margin="@dimen/padding_margin_10_dp"
+        android:hint="আপনি এখানে  টেক্সট  আকারে ফলাফলের দেখতে পাবেন"
+ android:background="@drawable/login_screen_holder" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lay"
+        android:layout_below="@+id/editText1"
+        android:orientation="vertical"
+android:gravity="center"
+        android:layout_margin="@dimen/padding_margin_10_dp"
+        android:weightSum="2"
+        >
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:layout_weight="1"
+    android:text="প্রেস করে বাংলাতে কথা বলুন"
+    android:textAllCaps="false"
+android:textSize="@dimen/padding_margin_16_dp"
+    android:textColor="@color/white"
+    android:background="@drawable/button"
+    android:layout_marginRight="@dimen/padding_margin_30_dp"
+    android:layout_marginLeft="@dimen/padding_margin_30_dp"
+    android:id="@+id/start"
+
+    />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="বন্ধ করে শুনুন"
+            android:layout_marginTop="@dimen/padding_margin_20_dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/padding_margin_16_dp"
+            android:background="@drawable/button"
+            android:layout_marginRight="@dimen/padding_margin_30_dp"
+            android:layout_marginLeft="@dimen/padding_margin_30_dp"
+            android:id="@+id/stop"
+
+            />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/padding_margin_30_dp"
+        android:background="@drawable/button_background" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+       android:gravity="center"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:textSize="10dp"
+        android:visibility="gone"
+        android:layout_marginBottom="20dp"
+        android:hint="প্রেস করে রেখে বাংলাতে কথা বলুন"
+       />
+
+
+</RelativeLayout>

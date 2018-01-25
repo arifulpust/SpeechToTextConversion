@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://E:\workspace\AndroidSpeechToText\SpeechToText\AndroidSpeechToTextConversion.iml" filepath="E:\workspace\AndroidSpeechToText\SpeechToText\AndroidSpeechToTextConversion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpeechToText.iml" filepath="$PROJECT_DIR$/SpeechToText.iml" />
+      <module fileurl="file://F:\Dream71App\AndroidSpeechToTextConversion\SpeechToText.iml" filepath="F:\Dream71App\AndroidSpeechToTextConversion\SpeechToText.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
